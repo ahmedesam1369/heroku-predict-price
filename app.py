@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET'])
 def hello():
-    return "hey"
+    return "hey ahmed esam"
 
 @app.route('/predict', methods=['POST'])
 def predict():
